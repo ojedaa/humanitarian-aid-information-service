@@ -31,9 +31,7 @@ describe('Donors controller tests', () => {
       expect.assertions(3)
       expect(getByCountryAndYearSpy).toBeCalledWith(countryCode, yearValue)
       expect(res.status).toBeCalledWith(200)
-      expect(res.json).toBeCalledWith({
-        results: expectedResult
-      })
+      expect(res.json).toBeCalledWith(expectedResult)
     })
 
     it('throws bad request error when query validation fails', async () => {
