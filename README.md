@@ -34,9 +34,7 @@ Follow this steps to start working on the project:
 - Change to development or feature branch
 - Create and fill .env file taking *example.env* as example
 - Install npm dependencies
-- Run ```
-npm start
-``` on command line
+- Run ```npm start``` on command line
 - Happy coding
 
 ## Running the project
